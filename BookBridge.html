@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookBridge</title>
+
+    <link rel="stylesheet" href="C:\Users\tamil\Learn_to_code\HTML_sk\BookBridge\style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h1>BookBridge</h1>
+        <p>Manage notes about your favorate books here ! </p>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2 class="book-title">Harry Potter</h2>
+            <h3 class="author">J.K Rowling</h3>
+            <p>The novels follow Harry Potter, an 11-year-old boy who discovers he is the son of famus wizards and will attend Hogwarts School of Withcraft and Wizardry.</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+        </div>
+    </div>
+
+    <div class="popup-overlay">
+    </div>
+
+    <div class="add-book-popup">
+        <h2>Add Book</h2>
+        <form style="margin-top: 10px;">
+            <input type="text" placeholder="Book Title*" id="book-title-ip">
+            <input type="text" placeholder="Author*" id="book-author-ip">
+            <textarea id="book-desc-ip" placeholder="Short Description*" onkeypress="return NoSpaces(event)" ></textarea>
+            <button id="addbook_btn">Add</button>
+            <button id="cancel_popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="plusbtn" id="plusbtn">+</button>
+
+    <script src="C:\Users\tamil\Learn_to_code\HTML_sk\BookBridge\script.js"></script>
+
+</body>
+
+</html>

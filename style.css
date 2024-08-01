@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(241, 226, 90);;
+    padding: 10px;
+    width: 100%;
+}
+
+.container{
+    padding: 10px;
+
+}
+
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.book-container button{
+    background-color: rgb(241, 226, 90);;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+.book-title{
+    color: rgb(241, 226, 90);;
+}
+
+.author{
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+.plusbtn{
+    background-color: rgb(241, 226, 90);;
+    color: black;
+    border-radius: 100%; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.add-book-popup{
+    background-color:rgb(241, 226, 90);;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+.add-book-popup input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: solid black 2px;
+}
+
+.add-book-popup textarea{
+    background: transparent;
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 18px;
+    border: solid black 2px;
+
+}
+
+.add-book-popup textarea::placeholder{
+    color: black;
+}
+
+.add-book-popup input::placeholder{
+    color: black;
+}
+
+.add-book-popup button{
+    background-color: black;
+    color: rgb(241, 226, 90);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.add-book-popup input:focus{
+    outline: none;
+
+}
+.add-book-popup textarea:focus{
+    outline: none;
+}
+
+
+
+
+
